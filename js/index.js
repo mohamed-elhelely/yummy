@@ -5,7 +5,7 @@ export class callData {
       $("#close").css({ display: "block" });
       $("#open").css({ display: "none" });
       $(".side-list").animate({ left: "0" }, 500);
-      $(".side-div").animate({ left: "14.5vw" }, 500);
+      $(".side-div").animate({ left: "14.8vw" }, 500);
       $("#contentNav").animate({ top: "0" }, 700);
     });
     $("#close").click(function () {

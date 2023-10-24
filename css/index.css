@@ -222,6 +222,12 @@ h6,
 }
 
 @media screen and (max-width : 480px) {
+  #showData , #s2{
+    margin-left: 4vw;
+  }
+  #closeMarke{
+    margin-right: 15px;
+  }
   .side-list li a {
     font-size: .6em;
   }

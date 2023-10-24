@@ -26,7 +26,7 @@ h6 {
   transition: all 0.5s;
 }
 .side-list li a {
-  font-size: 1rem;
+  font-size: 1em;
   color: white;
   text-decoration: none;
   transition: all 0.5s;
@@ -66,9 +66,7 @@ h6,
 ::placeholder {
   color: #6c757d !important;
 }
-.footer-side {
-  margin-top: 200%;
-}
+
 .s-search {
   display: none;
 }
@@ -182,5 +180,13 @@ h6,
   }
   87% {
     box-shadow: .2em -.2em 0 0 currentcolor;
+  }
+}
+@media screen and (max-width: 480px){
+  .side-list li a , .footer-text{
+    font-size: .5em;
+  }
+  #contentNav{
+    padding: 0%;
   }
 }
